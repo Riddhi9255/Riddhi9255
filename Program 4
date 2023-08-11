@@ -1,0 +1,16 @@
+Practical:4
+Write a c++ program to print name :
+#include<iostream>
+Using namespace std;
+int main()
+{
+        Char name [6];
+Cout<<"enter your good name ::";
+Cin>>name;
+Cout<<"your name is :: "<<name;
+Return 0;
+}
+Output:
+Enter your good name :: riddhi
+Your name is :: riddhi
+
