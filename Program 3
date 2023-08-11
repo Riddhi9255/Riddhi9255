@@ -1,0 +1,14 @@
+Practical :3
+Write a c++ program to display "hello world":
+
+#include<iostream>
+Using namespace std;
+ int main()
+{
+          
+Cout<<"hello world!";
+Return 0;
+}
+Output:
+Hello world!
+
