@@ -4,6 +4,7 @@ Write a c++ program to print name :
 Using namespace std;
 int main()
 {
+   cout<<"220130318035";     
         Char name [6];
 Cout<<"enter your good name ::";
 Cin>>name;
