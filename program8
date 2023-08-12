@@ -1,0 +1,18 @@
+    #include<iostream>
+    #include<math.h>
+using namespace std;
+int main()
+{
+    float p,r,y,ci;
+    cout<<"memdavadi riddhi";
+    cout<<"220130318035";
+    cout<<"enter the principal amount ::"<<endl;
+    cin>>p;
+    cout<<"enter the rate of interset ::"<<endl;
+    cin>>r;
+    cout<<"enter the year ::"<<endl;
+    cin>>y;
+    ci = p*((pow((1+r/100),y)-1));
+    cout<<"the compound interset will be::"<<ci<<endl;
+    return 0;
+}
