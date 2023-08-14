@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int n;
+cout<<"memdavadi riddhi";
+cout<<"220130318035";
+  cout << "Enter an integer: ";
+  cin >> n;
+
+  if ( n % 2 == 0)
+    cout << n << " is even.";
+  else
+    cout << n << " is odd.";
+
+  return 0;
+}
+output:
+memdavadi riddhi
+220130318035
+enter the integer :2
+2 is even.
