@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+bool isPrime(int num) {
+    if (num <= 1) {
+        return false;
+    }
+    
+    for (int i = 2; i * i <= num; ++i) {
+        if (num % i == 0) {
+            return false;
+        }
+    }
+    
+    return true;
+}
+
+int main() {
+    int number;
+    cout<<"riddhi memdavadi";
+     cout<<"220130318035”;
+    cout << "Enter a positive integer: ";
+    cin >> number;
+
+    if (isPrime(number)) {
+        cout << number << " is a prime number." << endl;
+    } else {
+        cout << number << " is not a prime number." << endl;
+    }
+
+    return 0;
+}
+output:
+riddhi memdavadi
+220130318035
+Enter a positive integer: 17
+17 is a prime number.
