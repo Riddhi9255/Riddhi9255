@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    int result = 1;
+    for (int i = 1; i <= n; ++i) {
+        result *= i;
+    }
+    return result;
+}
+
+int main() {
+    int num;
+    cout<<"riddhi memdavadi";
+    cout<<"220130318035";
+    cout << "Enter a non-negative integer: ";
+    cin >> num;
+
+    if (num < 0) {
+        cout << "Factorial is not defined for negative numbers." << endl;
+    } else {
+        int result = factorial(num);
+        cout << "Factorial of " << num << " is " << result << endl;
+    }
+
+    return 0;
+}
